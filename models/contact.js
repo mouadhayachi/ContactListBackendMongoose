@@ -13,10 +13,6 @@ const SchemaContact = new Schema({
   phone: {
     type: String,
     required: true,
-  },
-  hobby : {
-      type:String,
-      required:false
   }
 });
 
